@@ -40,6 +40,8 @@ function error() {
 }
 
 function calculate() {
+  document.getElementById("btn_=").style.backgroundColor = "#f5f5f5";
+
   const expression = input.innerText;
   try {
     const result = eval(expression);
@@ -101,7 +103,6 @@ document.onkeyup = function (e) {
       appendToDisplay("8");
       break;
     case 57:
-
     case 105:
       appendToDisplay("9");
       break;

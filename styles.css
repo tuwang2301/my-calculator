@@ -1,0 +1,70 @@
+html {
+  height: 100%;
+  width: 100%;
+  border: 0;
+  margin: 0;
+  font-family: "Lora", serif;
+}
+
+body {
+  background-image: url(https://i0.wp.com/css-tricks.com/wp-content/uploads/2020/11/css-gradient.png?fit=1200%2C600&ssl=1);
+  background-size: cover;
+  height: 100%;
+}
+
+.calculator {
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.calculator .display {
+  border-radius: 5px;
+  height: 50px;
+  max-width: 95%;
+  font-size: 20px;
+  padding: 10px 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.cus-button {
+  border: none;
+  border-radius: 5px;
+  width: 70px;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.cus-button:hover {
+  background-color: #dedddd;
+}
+
+.cus-button-ac {
+  background-color: #da1b61bf;
+}
+
+.cus-button-ac:hover {
+  background-color: #da1b61e3;
+}
+
+.cus-button-op {
+  background-color: #f76f15d2;
+}
+
+.cus-button-op:hover {
+  background-color: #f76f15f6;
+}
+
+.sign {
+  font-family: "Lora", serif;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+}
